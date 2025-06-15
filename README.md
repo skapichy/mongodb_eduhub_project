@@ -119,91 +119,52 @@ submission = {
 ```
     
 ---
-### Query Explanations
+### Key Tasks Covered & Query Explanations
+- Database Setup & Data Modeling
+- Create collections: users, courses, enrollments, lessons, assignments, submissions
+- Generate and insert sample data with Faker
+- Student Enrollment
+- Checks if user exists and is a student
+- Confirms course exists
+- Prevents duplicate enrollment
 
-Student Enrollment
+### Data Analysis, Aggregation, Schema Validation, Performance Analysis Results
+- Count users by roles (e.g., student, instructor)
+- Average course enrollments
+- Submission rates and completion metrics
+- Date-based queries (e.g., active users in the last 30 days)
+- Joins enrollments with course info
+- Groups by course and category
+- Computes total enrollments and average rating
+- Lesson Removal
+- Assignment Queries
+- Retrieves assignments due within the next 7 days using $gte and $lte operators
+- Define and apply JSON schema validations (e.g., enum types, email format)
+- Before Optimization (Some queries took 200–500ms due to missing indexes)
+- Optimizations Applied Created indexes on: email in users,title, category in courses, due_date in assignments
+- Rewrote aggregation pipelines to minimize $lookup depth
+- Used explain() to identify and eliminate collection scans
+- After Optimization (Query latency reduced to ~20–80ms range)
 
-Checks if user exists and is a student
+### Challenges Faced and Solutions
 
-Confirms course exists
+#### Duplicate Enrollment Prevention
+- Challenge: Preventing students from enrolling multiple times
+- Solution: Added a find_one check before insertion into enrollments
 
-Prevents duplicate enrollment
+#### Schema Enforcement
+- Challenge: MongoDB is schema-less by default
+- Solution: Used $jsonSchema validation with collMod to enforce structure
 
-Adds new enrollment with progress and enrolled_at
+#### Slow Aggregations
+- Challenge: Aggregation pipelines with $lookup slowed down
+- Solution: Indexed course_id fields and used $project to limit data transferred
 
-Course Analytics
+#### Handling Invalid Inserts
+- Challenge: Users inserting documents with wrong data types
+- Solution: Added robust error handling and type validations
 
-Joins enrollments with course info
-
-Groups by course and category
-
-Computes total enrollments and average rating
-
-Lesson Removal
-
-Uses $pull operator to remove a lesson title from the course's lessons array
-
-Assignment Queries
-
-Retrieves assignments due within the next 7 days using $gte and $lte operators
-
-Schema Validation
-
-Enforced using validator rules with $jsonSchema for type safety, required fields, enums, and email patterns
-
-🚀 Performance Analysis Results
-
-Before Optimization
-
-Some queries took 200–500ms due to missing indexes
-
-Optimizations Applied
-
-Created indexes on:
-
-email in users
-
-title, category in courses
-
-due_date in assignments
-
-Rewrote aggregation pipelines to minimize $lookup depth
-
-Used explain() to identify and eliminate collection scans
-
-After Optimization
-
-Query latency reduced to ~20–80ms range
-
-⚠️ Challenges Faced and Solutions
-
-1. Duplicate Enrollment Prevention
-
-Challenge: Preventing students from enrolling multiple times
-
-Solution: Added a find_one check before insertion into enrollments
-
-2. Schema Enforcement
-
-Challenge: MongoDB is schema-less by default
-
-Solution: Used $jsonSchema validation with collMod to enforce structure
-
-3. Slow Aggregations
-
-Challenge: Aggregation pipelines with $lookup slowed down
-
-Solution: Indexed course_id fields and used $project to limit data transferred
-
-4. Handling Invalid Inserts
-
-Challenge: Users inserting documents with wrong data types
-
-Solution: Added robust error handling and type validations
-
-5. Email Format Validation
-
-Challenge: Inconsistent or malformed emails
-
-Solution: Used regex pattern in schema validator
+#### Email Format Validation
+- Challenge: Inconsistent or malformed emails
+- Solution: Used regex pattern in schema validator
 
