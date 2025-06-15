@@ -51,7 +51,7 @@ fake = Faker()
 
 ---
 ## Database Schema Documentation
-python
+```python
 **Users Collection**
 user_schema = { 
     "user_id": 1,
