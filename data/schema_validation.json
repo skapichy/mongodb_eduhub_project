@@ -1,0 +1,94 @@
+{
+  "schemas": {
+    "basic_date_schema": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": ["name", "email", "created_at"],
+        "properties": {
+          "name": {
+            "bsonType": "string",
+            "description": "Name is required and must be a string"
+          },
+          "email": {
+            "bsonType": "string",
+            "description": "Email is required and must be a string"
+          },
+          "created_at": {
+            "bsonType": "date",
+            "description": "created_at is required and must be a date"
+          }
+        }
+      }
+    },
+
+    "full_user_schema": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": ["name", "email", "age", "is_active", "created_at"],
+        "properties": {
+          "name": {
+            "bsonType": "string",
+            "description": "Name must be a string"
+          },
+          "email": {
+            "bsonType": "string",
+            "pattern": "^.+@.+$",
+            "description": "Email must be a string and match email pattern"
+          },
+          "age": {
+            "bsonType": "int",
+            "minimum": 0,
+            "description": "Age must be an integer greater than or equal to 0"
+          },
+          "is_active": {
+            "bsonType": "bool",
+            "description": "is_active must be a boolean"
+          },
+          "created_at": {
+            "bsonType": "date",
+            "description": "created_at must be a valid date"
+          }
+        }
+      }
+    },
+
+    "enum_user_schema": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": ["name", "role", "status"],
+        "properties": {
+          "name": {
+            "bsonType": "string",
+            "description": "Name must be a string"
+          },
+          "role": {
+            "enum": ["student", "instructor", "admin"],
+            "description": "Role must be one of: student, instructor, admin"
+          },
+          "status": {
+            "enum": ["active", "inactive", "banned"],
+            "description": "Status must be one of: active, inactive, banned"
+          }
+        }
+      }
+    },
+
+    "email_regex_schema": {
+      "$jsonSchema": {
+        "bsonType": "object",
+        "required": ["name", "email"],
+        "properties": {
+          "name": {
+            "bsonType": "string",
+            "description": "Name must be a string"
+          },
+          "email": {
+            "bsonType": "string",
+            "pattern": "^[\\w\\.-]+@[\\w\\.-]+\\.\\w{2,}$",
+            "description": "Must be a valid email address"
+          }
+        }
+      }
+    }
+  }
+}

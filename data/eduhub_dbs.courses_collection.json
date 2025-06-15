@@ -1,0 +1,237 @@
+[{
+  "_id": {
+    "$oid": "684bc2a450966d2c2d7120e9"
+  },
+  "course_id": "MongoDB-101",
+  "title": "Introduction to MongoDB",
+  "description": "learn MongoDB",
+  "instructorId": 1,
+  "category": "Database",
+  "level": "advanced",
+  "duration": 4,
+  "price": 105,
+  "tags": "MongoDB",
+  "createdAt": {
+    "$date": "2024-08-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T07:18:12.204Z"
+  },
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "684bc2ad50966d2c2d7120ea"
+  },
+  "course_id": "mongodb-106",
+  "title": "MongoDB",
+  "description": "Learn MongoDB",
+  "instructorId": 19,
+  "category": "Database",
+  "level": "intermediate",
+  "duration": 8.2,
+  "price": 134.38,
+  "tags": [
+    "Python",
+    "basics"
+  ],
+  "createdAt": {
+    "$date": "2024-08-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T07:18:21.249Z"
+  },
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "684bc2ad50966d2c2d7120eb"
+  },
+  "course_id": "python-103",
+  "title": "Python",
+  "description": "Learn MongoDB",
+  "instructorId": 20,
+  "category": "Programming",
+  "level": "beginner",
+  "duration": 15.4,
+  "price": 196.29,
+  "tags": [
+    "Learning",
+    "basics",
+    "backend",
+    "NoSQL",
+    "database"
+  ],
+  "createdAt": {
+    "$date": "2024-08-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T07:18:21.250Z"
+  },
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "684bc2ad50966d2c2d7120ec"
+  },
+  "course_id": "python-118",
+  "title": "Python",
+  "description": "Learn MongoDB",
+  "instructorId": 19,
+  "category": "Database",
+  "level": "intermediate",
+  "duration": 12.1,
+  "price": 138.3,
+  "tags": [
+    "MongoDB",
+    "Learning"
+  ],
+  "createdAt": {
+    "$date": "2024-08-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T07:18:21.251Z"
+  },
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "684bc2ad50966d2c2d7120ed"
+  },
+  "course_id": "mongodb-103",
+  "title": "MongoDB",
+  "description": "Learn MongoDB",
+  "instructorId": 17,
+  "category": "Database",
+  "level": "beginner",
+  "duration": 11,
+  "price": 176.73,
+  "tags": [
+    "Learning",
+    "Python"
+  ],
+  "createdAt": {
+    "$date": "2024-08-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T07:18:21.252Z"
+  },
+  "isPublished": false
+},
+{
+  "_id": {
+    "$oid": "684bc2ad50966d2c2d7120ee"
+  },
+  "course_id": "mongodb-107",
+  "title": "MongoDB",
+  "description": "Be an Expert in MongoDB",
+  "instructorId": 19,
+  "category": "Database",
+  "level": "beginner",
+  "duration": 13.6,
+  "price": 86.59,
+  "tags": [
+    "Learning",
+    "Python"
+  ],
+  "createdAt": {
+    "$date": "2024-08-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T07:18:21.252Z"
+  },
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "684bc2ad50966d2c2d7120ef"
+  },
+  "course_id": "mongodb-108",
+  "title": "MongoDB",
+  "description": "Learn MongoDB",
+  "instructorId": 17,
+  "category": "Programming",
+  "level": "intermediate",
+  "duration": 19.9,
+  "price": 140.82,
+  "tags": [
+    "Learning",
+    "Python"
+  ],
+  "createdAt": {
+    "$date": "2024-08-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T07:18:21.253Z"
+  },
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "684bc2ad50966d2c2d7120f0"
+  },
+  "course_id": "python-102",
+  "title": "Python",
+  "description": "Learn MongoDB",
+  "instructorId": 18,
+  "category": "Database",
+  "level": "advanced",
+  "duration": 7.7,
+  "price": 191.02,
+  "tags": [
+    "Python",
+    "Learning"
+  ],
+  "createdAt": {
+    "$date": "2024-08-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T07:18:21.253Z"
+  },
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "684bc2ad50966d2c2d7120f1"
+  },
+  "course_id": "python-103",
+  "title": "Python",
+  "description": "Learn MongoDB",
+  "instructorId": 19,
+  "category": "Programming",
+  "level": "intermediate",
+  "duration": 5.5,
+  "price": 165.35,
+  "tags": [
+    "Learning",
+    "MongoDB"
+  ],
+  "createdAt": {
+    "$date": "2024-08-01T00:00:00.000Z"
+  },
+  "updatedAt": {
+    "$date": "2025-06-13T07:18:21.254Z"
+  },
+  "isPublished": true
+},
+{
+  "_id": {
+    "$oid": "684bc75750966d2c2d71213d"
+  },
+  "course_id": "mongodbprac-124",
+  "title": "MongoDB Practical",
+  "description": "A practical introduction to MongoDB for developers.",
+  "instructorId": 20,
+  "category": "Database",
+  "level": "beginner",
+  "duration": 10,
+  "price": 99.99,
+  "tags": [
+    "MongoDB",
+    "basics"
+  ],
+  "createdAt": {
+    "$date": "2025-06-13T07:38:15.475Z"
+  },
+  "isPublished": true
+}]

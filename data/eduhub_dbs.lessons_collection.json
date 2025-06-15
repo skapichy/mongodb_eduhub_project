@@ -1,0 +1,276 @@
+[{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712101"
+  },
+  "course_id": "mongodb-103",
+  "title": "MongoDB Intermediate",
+  "content": "CRUD Operations",
+  "order": 1,
+  "duration": 19.8,
+  "rating": 4.2
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712102"
+  },
+  "course_id": "MongoDB-101",
+  "title": "MongoDB Intermediate",
+  "content": "Indexes",
+  "order": 2,
+  "duration": 4.4,
+  "rating": 3.2
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712103"
+  },
+  "course_id": "python-102",
+  "title": "MongoDB Intermediate",
+  "content": "Aggregation",
+  "order": 3,
+  "duration": 4.3,
+  "rating": 4.2
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712104"
+  },
+  "course_id": "python-102",
+  "title": "Intro to MongoDB",
+  "content": "Document Database",
+  "order": 4,
+  "duration": 17.7,
+  "rating": 4.6
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712105"
+  },
+  "course_id": "MongoDB-101",
+  "title": "MongoDB Intermediate",
+  "content": "CRUD Operations",
+  "order": 5,
+  "duration": 6.5,
+  "rating": 3.7
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712106"
+  },
+  "course_id": "mongodb-106",
+  "title": "Intro to MongoDB",
+  "content": "Aggregation",
+  "order": 6,
+  "duration": 9.9,
+  "rating": 4.3
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712107"
+  },
+  "course_id": "python-102",
+  "title": "Intro to MongoDB",
+  "content": "Aggregation",
+  "order": 7,
+  "duration": 4.8,
+  "rating": 3.1
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712108"
+  },
+  "course_id": "mongodb-106",
+  "title": "MongoDB Intermediate",
+  "content": "MongoDB",
+  "order": 8,
+  "duration": 7.6,
+  "rating": 3.5
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712109"
+  },
+  "course_id": "MongoDB-101",
+  "title": "MongoDB Intermediate",
+  "content": "Replication",
+  "order": 9,
+  "duration": 9.9,
+  "rating": 4.2
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d71210a"
+  },
+  "course_id": "mongodb-106",
+  "title": "Intro to MongoDB",
+  "content": "MongoDB",
+  "order": 10,
+  "duration": 17.4,
+  "rating": 3.4
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d71210b"
+  },
+  "course_id": "python-103",
+  "title": "MongoDB Intermediate",
+  "content": "Indexes",
+  "order": 11,
+  "duration": 17.6,
+  "rating": 4.1
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d71210c"
+  },
+  "course_id": "mongodb-108",
+  "title": "MongoDB Intermediate",
+  "content": "Replication",
+  "order": 12,
+  "duration": 14.6,
+  "rating": 4.4
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d71210d"
+  },
+  "course_id": "python-118",
+  "title": "Intro to MongoDB",
+  "content": "Collections",
+  "order": 13,
+  "duration": 11.9,
+  "rating": 3.7
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d71210e"
+  },
+  "course_id": "mongodb-106",
+  "title": "MongoDB Intermediate",
+  "content": "NoSQL",
+  "order": 14,
+  "duration": 11.4,
+  "rating": 5
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d71210f"
+  },
+  "course_id": "python-118",
+  "title": "Intro to MongoDB",
+  "content": "Collections",
+  "order": 15,
+  "duration": 13,
+  "rating": 3.5
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712110"
+  },
+  "course_id": "mongodb-107",
+  "title": "Intro to MongoDB",
+  "content": "Collections",
+  "order": 16,
+  "duration": 13.9,
+  "rating": 4.9
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712111"
+  },
+  "course_id": "mongodb-108",
+  "title": "Intro to MongoDB",
+  "content": "Document Database",
+  "order": 17,
+  "duration": 16,
+  "rating": 4.5
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712112"
+  },
+  "course_id": "python-118",
+  "title": "Intro to MongoDB",
+  "content": "NoSQL",
+  "order": 18,
+  "duration": 14.6,
+  "rating": 4.9
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712113"
+  },
+  "course_id": "python-118",
+  "title": "Intro to MongoDB",
+  "content": "Document Database",
+  "order": 19,
+  "duration": 9.5,
+  "rating": 4.5
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712114"
+  },
+  "course_id": "mongodb-108",
+  "title": "Intro to MongoDB",
+  "content": "CRUD Operations",
+  "order": 20,
+  "duration": 6.3,
+  "rating": 3.8
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712115"
+  },
+  "course_id": "python-103",
+  "title": "MongoDB Intermediate",
+  "content": "Indexes",
+  "order": 21,
+  "duration": 12,
+  "rating": 4.6
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712116"
+  },
+  "course_id": "python-102",
+  "title": "MongoDB Intermediate",
+  "content": "Collections",
+  "order": 22,
+  "duration": 9.8,
+  "rating": 3.7
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712118"
+  },
+  "course_id": "MongoDB-101",
+  "title": "MongoDB Intermediate",
+  "content": "CRUD Operations",
+  "order": 24,
+  "duration": 9.6,
+  "rating": 3.7
+},
+{
+  "_id": {
+    "$oid": "684bc50f50966d2c2d712119"
+  },
+  "course_id": "MongoDB-101",
+  "title": "Intro to MongoDB",
+  "content": "Collections",
+  "order": 25,
+  "duration": 13.2,
+  "rating": 4.6
+},
+{
+  "_id": {
+    "$oid": "684bf4f350966d2c2d712140"
+  },
+  "course_id": "mongodb-103",
+  "title": "Introduction to NOSQL",
+  "content": "This lesson covers NOSQL.",
+  "duration": 3,
+  "created_at": {
+    "$date": "2025-06-13T10:52:51.758Z"
+  }
+}]

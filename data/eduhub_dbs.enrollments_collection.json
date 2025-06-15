@@ -1,0 +1,150 @@
+[{
+  "_id": {
+    "$oid": "684bc36e50966d2c2d7120f2"
+  },
+  "course_id": "mongodb-103",
+  "enrolled_at": {
+    "$date": "2025-04-14T07:21:34.479Z"
+  },
+  "completed": true
+},
+{
+  "_id": {
+    "$oid": "684bc36e50966d2c2d7120f4"
+  },
+  "course_id": "mongodb-107",
+  "enrolled_at": {
+    "$date": "2025-05-14T07:21:34.479Z"
+  },
+  "completed": false
+},
+{
+  "_id": {
+    "$oid": "684bc36e50966d2c2d7120f5"
+  },
+  "course_id": "mongodb-107",
+  "enrolled_at": {
+    "$date": "2025-04-14T07:21:34.479Z"
+  },
+  "completed": true
+},
+{
+  "_id": {
+    "$oid": "684bc36e50966d2c2d7120f6"
+  },
+  "course_id": "python-103",
+  "enrolled_at": {
+    "$date": "2025-04-14T07:21:34.479Z"
+  },
+  "completed": false
+},
+{
+  "_id": {
+    "$oid": "684bc36e50966d2c2d7120f7"
+  },
+  "course_id": "python-118",
+  "enrolled_at": {
+    "$date": "2025-03-15T07:21:34.479Z"
+  },
+  "completed": true
+},
+{
+  "_id": {
+    "$oid": "684bc36e50966d2c2d7120f8"
+  },
+  "course_id": "python-118",
+  "enrolled_at": {
+    "$date": "2025-04-14T07:21:34.479Z"
+  },
+  "completed": true
+},
+{
+  "_id": {
+    "$oid": "684bc36e50966d2c2d7120f9"
+  },
+  "course_id": "MongoDB-101",
+  "enrolled_at": {
+    "$date": "2025-03-15T07:21:34.479Z"
+  },
+  "completed": false
+},
+{
+  "_id": {
+    "$oid": "684bc36e50966d2c2d7120fa"
+  },
+  "course_id": "MongoDB-101",
+  "enrolled_at": {
+    "$date": "2025-04-14T07:21:34.479Z"
+  },
+  "completed": true
+},
+{
+  "_id": {
+    "$oid": "684bc36e50966d2c2d7120fb"
+  },
+  "course_id": "MongoDB-101",
+  "enrolled_at": {
+    "$date": "2025-03-15T07:21:34.479Z"
+  },
+  "completed": false
+},
+{
+  "_id": {
+    "$oid": "684bc36e50966d2c2d7120fc"
+  },
+  "course_id": "mongodb-106",
+  "enrolled_at": {
+    "$date": "2025-05-14T07:21:34.479Z"
+  },
+  "completed": false
+},
+{
+  "_id": {
+    "$oid": "684bc36e50966d2c2d7120fd"
+  },
+  "course_id": "python-118",
+  "enrolled_at": {
+    "$date": "2025-03-15T07:21:34.480Z"
+  },
+  "completed": true
+},
+{
+  "_id": {
+    "$oid": "684bc36e50966d2c2d7120fe"
+  },
+  "course_id": "MongoDB-101",
+  "enrolled_at": {
+    "$date": "2025-03-15T07:21:34.480Z"
+  },
+  "completed": false
+},
+{
+  "_id": {
+    "$oid": "684bc36e50966d2c2d7120ff"
+  },
+  "course_id": "MongoDB-101",
+  "enrolled_at": {
+    "$date": "2025-05-14T07:21:34.480Z"
+  },
+  "completed": true
+},
+{
+  "_id": {
+    "$oid": "684bc36e50966d2c2d712100"
+  },
+  "course_id": "MongoDB-101",
+  "enrolled_at": {
+    "$date": "2025-05-14T07:21:34.480Z"
+  },
+  "completed": true
+},
+{
+  "_id": {
+    "$oid": "684bf4a850966d2c2d71213f"
+  },
+  "user_id": 22,
+  "course_id": "python-103",
+  "enrolled_at": {
+    "$date": "2025-06-13T10:51:36.390Z"
+  }
+}]

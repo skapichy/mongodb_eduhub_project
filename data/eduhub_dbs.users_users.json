@@ -1,0 +1,443 @@
+[{
+  "_id": {
+    "$oid": "684bc24b50966d2c2d7120d4"
+  },
+  "user_id": 1,
+  "email": "john@mich.com",
+  "firstname": "micheal",
+  "lastname": "mathew",
+  "role": "student",
+  "date_joined": {
+    "$date": "2024-08-01T00:00:00.000Z"
+  },
+  "profile": {
+    "bio": "Data Engineer",
+    "avatar": "https://example.com/avatar.jpg",
+    "skills": "Python"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120d5"
+  },
+  "user_id": 2,
+  "email": "kathleen10@example.net",
+  "firstname": "Brent",
+  "lastname": "Morgan",
+  "role": "student",
+  "date_joined": {
+    "$date": "2025-05-16T21:02:27.000Z"
+  },
+  "profile": {
+    "bio": "SQL Engineer",
+    "avatar": "https://dummyimage.com/331x480",
+    "skills": "MongoDB"
+  },
+  "is_active": false
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120d6"
+  },
+  "user_id": 3,
+  "email": "zacharyanderson@example.net",
+  "firstname": "John",
+  "lastname": "Hardin",
+  "role": "student",
+  "date_joined": {
+    "$date": "2025-04-09T10:28:55.000Z"
+  },
+  "profile": {
+    "bio": "Python Associate",
+    "avatar": "https://picsum.photos/112/999",
+    "skills": "Cloud"
+  },
+  "is_active": false
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120d7"
+  },
+  "user_id": 4,
+  "email": "debramills@example.org",
+  "firstname": "Nicholas",
+  "lastname": "Nguyen",
+  "role": "student",
+  "date_joined": {
+    "$date": "2025-03-02T10:44:02.000Z"
+  },
+  "profile": {
+    "bio": "Data Engineer",
+    "avatar": "https://placekitten.com/338/989",
+    "skills": "Python"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120d8"
+  },
+  "user_id": 5,
+  "email": "ymorrow@example.org",
+  "firstname": "Amanda",
+  "lastname": "Russell",
+  "role": "student",
+  "date_joined": {
+    "$date": "2025-02-09T11:32:18.000Z"
+  },
+  "profile": {
+    "bio": "Database Engineer",
+    "avatar": "https://picsum.photos/555/828",
+    "skills": "Python"
+  },
+  "is_active": false
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120d9"
+  },
+  "user_id": 6,
+  "email": "butlerlarry@example.net",
+  "firstname": "Kevin",
+  "lastname": "Santana",
+  "role": "student",
+  "date_joined": {
+    "$date": "2025-05-04T17:36:54.000Z"
+  },
+  "profile": {
+    "bio": "Database Engineer",
+    "avatar": "https://dummyimage.com/435x354",
+    "skills": "SQL"
+  },
+  "is_active": false
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120da"
+  },
+  "user_id": 7,
+  "email": "ososa@example.com",
+  "firstname": "David",
+  "lastname": "James",
+  "role": "student",
+  "date_joined": {
+    "$date": "2025-01-12T15:11:17.000Z"
+  },
+  "profile": {
+    "bio": "Python Associate",
+    "avatar": "https://picsum.photos/904/358",
+    "skills": "SQL"
+  },
+  "is_active": false
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120db"
+  },
+  "user_id": 8,
+  "email": "mjohnson@example.com",
+  "firstname": "Brooke",
+  "lastname": "Walsh",
+  "role": "student",
+  "date_joined": {
+    "$date": "2025-04-15T16:53:44.000Z"
+  },
+  "profile": {
+    "bio": "Data Engineer",
+    "avatar": "https://picsum.photos/58/71",
+    "skills": "Cloud"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120dc"
+  },
+  "user_id": 9,
+  "email": "michelleward@example.com",
+  "firstname": "Jason",
+  "lastname": "Thompson",
+  "role": "student",
+  "date_joined": {
+    "$date": "2025-02-15T00:21:44.000Z"
+  },
+  "profile": {
+    "bio": "Python Associate",
+    "avatar": "https://dummyimage.com/521x165",
+    "skills": "MongoDB"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120dd"
+  },
+  "user_id": 10,
+  "email": "spearselizabeth@example.org",
+  "firstname": "Jennifer",
+  "lastname": "Graham",
+  "role": "student",
+  "date_joined": {
+    "$date": "2025-02-18T22:52:57.000Z"
+  },
+  "profile": {
+    "bio": "Data Engineer",
+    "avatar": "https://dummyimage.com/283x552",
+    "skills": "SQL"
+  },
+  "is_active": false
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120de"
+  },
+  "user_id": 11,
+  "email": "ufleming@example.org",
+  "firstname": "Emily",
+  "lastname": "Moss",
+  "role": "student",
+  "date_joined": {
+    "$date": "2025-05-10T05:38:27.000Z"
+  },
+  "profile": {
+    "bio": "SQL Engineer",
+    "avatar": "https://placekitten.com/981/542",
+    "skills": "Python"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120df"
+  },
+  "user_id": 12,
+  "email": "nancy37@example.org",
+  "firstname": "Brenda",
+  "lastname": "Brown",
+  "role": "student",
+  "date_joined": {
+    "$date": "2025-05-28T14:59:26.000Z"
+  },
+  "profile": {
+    "bio": "Python Associate",
+    "avatar": "https://placekitten.com/429/66",
+    "skills": "Cloud"
+  },
+  "is_active": false
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120e0"
+  },
+  "user_id": 13,
+  "email": "johnweaver@example.net",
+  "firstname": "Kevin",
+  "lastname": "Ward",
+  "role": "student",
+  "date_joined": {
+    "$date": "2025-05-20T08:45:47.000Z"
+  },
+  "profile": {
+    "bio": "Python Associate",
+    "avatar": "https://picsum.photos/850/218",
+    "skills": "JupyterLab"
+  },
+  "is_active": false
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120e2"
+  },
+  "user_id": 15,
+  "email": "xmathews@example.net",
+  "firstname": "Alexis",
+  "lastname": "Fitzgerald",
+  "role": "student",
+  "date_joined": {
+    "$date": "2025-03-15T18:57:51.000Z"
+  },
+  "profile": {
+    "bio": "SQL Engineer",
+    "avatar": "https://dummyimage.com/341x323",
+    "skills": "SQL"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120e3"
+  },
+  "user_id": 16,
+  "email": "jamesvega@example.org",
+  "firstname": "Eric",
+  "lastname": "Lee",
+  "role": "student",
+  "date_joined": {
+    "$date": "2025-04-12T17:59:42.000Z"
+  },
+  "profile": {
+    "bio": "SQL Engineer",
+    "avatar": "https://picsum.photos/842/933",
+    "skills": "SQL"
+  },
+  "is_active": false
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120e4"
+  },
+  "user_id": 17,
+  "email": "mromero@example.org",
+  "firstname": "Richard",
+  "lastname": "Frazier",
+  "role": "instructor",
+  "date_joined": {
+    "$date": "2025-01-20T13:59:18.000Z"
+  },
+  "profile": {
+    "bio": "Data Engineer",
+    "avatar": "https://placekitten.com/379/447",
+    "skills": "JupyterLab"
+  },
+  "is_active": false
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120e5"
+  },
+  "user_id": 18,
+  "email": "olsonbrian@example.net",
+  "firstname": "Albert",
+  "lastname": "Davis",
+  "role": "instructor",
+  "date_joined": {
+    "$date": "2025-04-25T14:31:44.000Z"
+  },
+  "profile": {
+    "bio": "SQL Engineer",
+    "avatar": "https://dummyimage.com/621x315",
+    "skills": "JupyterLab"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120e6"
+  },
+  "user_id": 19,
+  "email": "susan81@example.net",
+  "firstname": "Nicholas",
+  "lastname": "Jones",
+  "role": "instructor",
+  "date_joined": {
+    "$date": "2025-02-05T14:08:51.000Z"
+  },
+  "profile": {
+    "bio": "SQL Engineer",
+    "avatar": "https://dummyimage.com/958x949",
+    "skills": "Cloud"
+  },
+  "is_active": false
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120e7"
+  },
+  "user_id": 20,
+  "email": "elizabethevans@example.com",
+  "firstname": "Tyrone",
+  "lastname": "Miller",
+  "role": "instructor",
+  "date_joined": {
+    "$date": "2025-03-14T03:38:56.000Z"
+  },
+  "profile": {
+    "bio": "Data Engineer",
+    "avatar": "https://placekitten.com/638/1016",
+    "skills": "Python"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "684bc26050966d2c2d7120e8"
+  },
+  "user_id": 21,
+  "email": "qrivera@example.org",
+  "firstname": "Adam",
+  "lastname": "Gardner",
+  "role": "instructor",
+  "date_joined": {
+    "$date": "2025-04-16T06:44:51.000Z"
+  },
+  "profile": {
+    "bio": "Data Engineer",
+    "avatar": "https://dummyimage.com/492x962",
+    "skills": "Python"
+  },
+  "is_active": false
+},
+{
+  "_id": {
+    "$oid": "684bc72e50966d2c2d71213c"
+  },
+  "user_id": 22,
+  "firstname": "Matthew",
+  "lastname": "James",
+  "email": "matjames@yahoo.com",
+  "role": "student",
+  "date_joined": {
+    "$date": "2025-06-13T07:37:34.855Z"
+  },
+  "profile": {
+    "bio": "SQL Engineer",
+    "avatar": "https://picsum.photos/574/442",
+    "skills": "Python"
+  },
+  "is_active": true
+},
+{
+  "_id": {
+    "$oid": "684c21ce50966d2c2d712141"
+  },
+  "name": "Jane Doe",
+  "email": "jane@example.com",
+  "created_at": {
+    "$date": "2025-06-13T13:04:14.768Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684c22a750966d2c2d712142"
+  },
+  "name": "John Doe",
+  "email": "john@example.com",
+  "age": 30,
+  "is_active": true,
+  "created_at": {
+    "$date": "2025-06-13T14:07:51.220Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684c237f50966d2c2d712143"
+  },
+  "name": "Imoru Micheal",
+  "role": "student",
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "684c23c850966d2c2d712144"
+  },
+  "name": "Imoru Micheal",
+  "email": "imoru@example.com"
+},
+{
+  "_id": {
+    "$oid": "684c248950966d2c2d712145"
+  },
+  "name": "Micheal",
+  "email": "micheal@example.com"
+}]

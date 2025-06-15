@@ -1,0 +1,110 @@
+[{
+  "_id": {
+    "$oid": "684bc5d450966d2c2d71211a"
+  },
+  "course_id": "MongoDB-101",
+  "title": "Intro to MongoDB",
+  "description": "Learn MongoDB",
+  "due_date": {
+    "$date": "2025-04-30T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684bc5d450966d2c2d71211b"
+  },
+  "course_id": "mongodb-106",
+  "title": "Intro to MongoDB",
+  "description": "Learn MongoDB",
+  "due_date": {
+    "$date": "2025-04-30T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684bc5d450966d2c2d71211c"
+  },
+  "course_id": "python-103",
+  "title": "Intro to MongoDB",
+  "description": "Learn MongoDB",
+  "due_date": {
+    "$date": "2025-04-30T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684bc5d450966d2c2d71211d"
+  },
+  "course_id": "mongodb-108",
+  "title": "Intro to MongoDB",
+  "description": "Learn Python",
+  "due_date": {
+    "$date": "2025-04-30T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684bc5d450966d2c2d71211e"
+  },
+  "course_id": "mongodb-106",
+  "title": "MongoDB intermediate",
+  "description": "Be an Expert in MongoDB",
+  "due_date": {
+    "$date": "2025-04-30T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684bc5d450966d2c2d71211f"
+  },
+  "course_id": "mongodb-106",
+  "title": "Intro to MongoDB",
+  "description": "Be an Expert in MongoDB",
+  "due_date": {
+    "$date": "2025-04-30T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684bc5d450966d2c2d712120"
+  },
+  "course_id": "mongodb-107",
+  "title": "Intro to MongoDB",
+  "description": "Be an Expert in MongoDB",
+  "due_date": {
+    "$date": "2025-04-30T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684bc5d450966d2c2d712121"
+  },
+  "course_id": "mongodb-107",
+  "title": "Intro to MongoDB",
+  "description": "Be an Expert in MongoDB",
+  "due_date": {
+    "$date": "2025-04-30T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684bc5d450966d2c2d712122"
+  },
+  "course_id": "python-103",
+  "title": "Intro to MongoDB",
+  "description": "Be an Expert in MongoDB",
+  "due_date": {
+    "$date": "2025-04-30T00:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "684bc5d450966d2c2d712123"
+  },
+  "course_id": "python-102",
+  "title": "Intro to MongoDB",
+  "description": "Learn Python",
+  "due_date": {
+    "$date": "2025-04-30T00:00:00.000Z"
+  }
+}]
