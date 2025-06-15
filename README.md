@@ -1,13 +1,11 @@
 # mongodb-eduhub-project
 The EduHub MongoDB Project is a hands-on data management and analysis solution for an educational platform using MongoDB and PyMongo. It handles various collections such as user registration, course creation, lesson tracking, student enrollments, assignment submissions, analytics, and schema validations.
-
 This project includes well-structured queries, optimization strategies, performance benchmarks, and data integrity validations to provide a scalable and efficient backend for an e-learning platform..
 
 ---
 ##  Project Setup Instructions
 ### Clone the repository  
 - git clone https://github.com/skapichy/eduhub_mongodb_project.git
-- cd eduhub_mongodb_project
 
 ### Install Dependencies 
 - Ensure Python is installed. Then install required packages:
