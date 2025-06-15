@@ -58,7 +58,7 @@ fake = Faker()
 
 ---
 ## Database Schema Documentation
-python
+```python
 **Users Collection**
 user_schema = { 
     "user_id": 1,
@@ -115,11 +115,10 @@ assignment = {
 submission = {
     "user_id": random.choice(student_ids),
     "submitted_at": datetime(2025, 5, 31),
-    "grade": random.randint(50, 100)}
+    "grade": random.randint(50, 100)}```
 
+    
 ---
----
-
 ### Query Explanations
 
 Student Enrollment
